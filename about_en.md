@@ -28,7 +28,7 @@ The website wish to inform more people about this on-going crisis, happening on 
 
 __They do not deverse that. And all of us, are not innocent.__
 
-## Moderation
+## Censorship
 
 Based on Weibo manager (if not CEO), only 20% of messages posted in the hashtag went public. Besides that, about hundres delete per day is estimated based on crawling log.
 
