@@ -1,0 +1,68 @@
+---
+layout: default
+---
+
+<div class="content">
+  <div class="randomize">
+  {% for post in paginator.posts %}
+    {% if post.name_ %}
+      <article>
+        <header>
+          <h2><a href="{{ post.status_url }}">{{ post.name_ }}, {{ post.age_ }}岁, {{ post.desc_ | strip_html | truncate:60 }}</a></h2>
+          {% if post.desc_.size > 90 %}
+            <p>{{ post.desc_ | strip_html }}</p>
+          {% else %}
+            <p>{{ post.content_full_raw | strip_html }}</p>
+          {% endif %}
+            {% if post.imageurl_butnotreally %}
+              <ul class="image-gallery">
+                {%  assign urls = post.imageurl | split: "," %}
+                {% for url in urls %}
+                  <li>
+                    <a href="{{ url }}">
+                      <img src="{{ url }}" style="width: 100px">
+                    </a>
+                  </li>
+                {% endfor %}
+              </ul>
+            {% endif %}
+          <h5 style="text-align-last:end;">{{ post.date | date: "%d %b %Y" }}</h5>
+        </header>
+      </article>
+    {% endif %}
+  {% endfor %}
+
+  {% if paginator.total_pages > 1 %}
+  <div class="pagination">
+    {% if paginator.previous_page %}
+      {% if paginator.page == 2 %}
+        <a href="{{ site.siteurl }}/">&laquo; Prev</a>
+      {% else %}
+        <a href="{{ site.siteurl }}/page{{ paginator.previous_page }}/">&laquo; Prev</a>
+      {% endif %}    
+    {% else %}
+      <span>&laquo; Prev</span>
+    {% endif %}
+
+    {% if paginator.next_page %}
+      <a class='next' href="{{ site.siteurl }}/page{{ paginator.next_page }}/">Next &raquo;</a>
+    {% else %}
+      <span class='next'>Next &raquo;</span>
+    {% endif %}
+  </div>
+  {% endif %}
+  </div>
+</div>
+
+
+<script src="{{ site.siteurl }}/js/jquery-1.11.1.js"></script>
+<script src="{{ site.siteurl }}/js/jscroll/jquery.jscroll.js"></script>
+{% include randomize.html %}
+
+<script type="text/javascript">
+// content selector is used to extract the additional items 
+$('.content').jscroll({
+    contentSelector: ".content",
+    nextSelector: '.next'
+});
+</script>
