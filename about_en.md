@@ -14,13 +14,15 @@ People desperately broad their SOS message on SNS for the very last change.
 
 Started from Feb 3rd, Weibo (doubtabli the largest sns in China) opened up [Virus Patient SOS](https://huati.weibo.com/6882551) hashtag (yes, that needs platform authentication first), thousands of SOS messages flocked in from individuals trapped in Wuhan and other Hubei cities. 
 
-This website uses crawler to collect and archieve those messages from the Weibo platform and developed this website.
+This website uses crawler to collect and archive those messages from the Weibo platform and developed this website.
 
-## Sitemap
+## Site
 
 There is only a index page and this about page. The index page is infinite scrollable, with google translate widget.
 
-Messages are shown chronically, with small batch randomization, for presenting more of them. Click the title to the original post on Weibo, if exsits.
+Messages are shown chronically, with small batch randomization, for presenting more of them. Select date on top left.
+
+Click the title to the original post on Weibo, if exists.
 
 ## Misson
 

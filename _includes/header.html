@@ -1,0 +1,44 @@
+    <div class="header-container" title="{{ site.description }}">
+      <header class="wrapper clearfix">
+        <div style="position: relative;">
+
+          <div style="display: inline-block;">
+            <a style="text-decoration: none;" href="/"><h1 class="title">武汉 · 人间</h1></a>
+          </div>
+
+          <div class="menu" style="float: right; position: absolute;right: 0;top: 0;">
+            <a href="about_en.html" title="ABOUT SITE"> <h3 class="gt555" style="float: right;">ABOUT</h3></a>
+            <a href="about.html" title="关于本网站"> <h3 style="float: right;">关于</h3></a>    
+            <div class="gt999" id="google_translate_element" style="float: right;margin: 1em;"></div>
+          </div>
+
+          <div class="menu" style="float: left; position: absolute;left: 0;top: 0;">
+            <form>
+                <select onchange="window.location.href=this.value" style="background: #39190d; margin: 1em; border-width: 0px;border-color: #6e201f; color: #6e201f; font-weight: bolder; font-size: 1.17em;">
+                  <option selected="selectd">Date</option>
+
+                  {% assign postbydates = site.posts | group_by_exp: "item", "item.date | date: '%b%d'" %}
+                  {% assign totalposts = 0 %}
+                  {% for filterdate in postbydates%}
+                    {% assign pagen = totalposts | divided_by: site.paginate | plus: 1  %}
+                    {% if pagen < 2 %}
+                      <option value="{{site.url}}/">
+                        {{filterdate.name}}
+                      </option>
+                    {% else %}
+                      <option value="{{site.url}}/page{{pagen}}">
+                        {{filterdate.name}}
+                      </option>
+                    {% endif %}
+
+                      {% assign totalposts = totalposts | plus: filterdate.size %}
+                  {%endfor%}
+
+                </select>
+              </form>
+          </div>
+
+        </div>
+        
+      </header>
+    </div>

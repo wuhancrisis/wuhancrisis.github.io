@@ -1,59 +1,20 @@
 <!DOCTYPE html>
 <html class="no-js" lang="zh">
   <head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-    <title>武汉 · 人间</title>
-    <meta name="description" content="{{ site.motto }}">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" href="{{ site.siteurl }}/css/normalize.min.css">
-    <link rel="stylesheet" href="{{ site.siteurl }}/css/main.css">
-    <link rel="shortcut icon" type="image/png" href="{{ site.siteurl }}/assets/icon/favicon_whiteround.png">
-    <script src="{{ site.siteurl }}/js/vendor/modernizr-2.6.2-respond-1.1.0.min.js"></script>
-    <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.11.1.min.js"><\/script>')</script>
-    <script src="{{ site.siteurl }}/js/main.js"></script>
-    <script type="text/javascript" src="{{ site.siteurl }}/js/element.js?cb=googleTranslateElementInit"></script>
-
-
+    {% include head.html %}
   </head>
+
   <body>
 
-    <div class="header-container" title="{{ site.motto }}">
-      <header class="wrapper clearfix">
-        <div style="position: relative;">
+    {% include header.html %}
 
-          <div style="display: inline-block;">
-            <a style="text-decoration: none;" href="/"><h1 class="title">武汉 · 人间</h1></a>
-          </div>
+  <div class="main-container">
+    <div class="main wrapper clearfix">
+      {{ content }}
+    </div> 
+  </div> 
 
-          <div class="menu" style="float: right; position: absolute;right: 0;top: 0;">
-            <a href="about_en.html" title="ABOUT SITE"> <h3 class="px555" style="float: right;">ABOUT</h3></a>
-            <a href="about.html" title="关于本网站"> <h3 style="float: right;">关于</h3></a>    
-            <div class="px999" id="google_translate_element" style="float: right;margin: 1em;"></div>
-          </div>
+  {% include footer.html %}
 
-        </div>
-        
-      </header>
-    </div>
-
-    <div class="main-container">
-      <div class="main wrapper clearfix">
-        {{ content }}
-      </div> <!-- #main -->
-    </div> <!-- #main-container -->
-
-    <div class="footer-container">
-      <footer class="wrapper">        
-      </footer>
-    </div>
-
-  <script type="text/javascript" src="/js/lightbox.js"></script>
-  <link rel="stylesheet" href="/css/lightbox.css">
-  <script type="text/javascript">
-  function googleTranslateElementInit() {
-    new google.translate.TranslateElement({pageLanguage: document.documentElement.lang, includedLanguages:'en,ja,fr,de,es,ar,it,ru,ko', layout: google.translate.TranslateElement.InlineLayout.SIMPLE}, 'google_translate_element');
-  }
-  </script>
   </body>
 </html>

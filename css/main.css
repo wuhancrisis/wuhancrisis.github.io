@@ -43,15 +43,46 @@ h5 {
 }
 
 @media (max-width: 999px) {
-    .px999 {
+    .gt999 {
         display: none;
     }
 }
 
 @media (max-width: 555px) {
-    .px555 {
+    .gt555 {
         display: none;
     }
+}
+
+@media (min-width: 999px) {
+    .lt999 {
+        display: none;
+    }
+}
+
+
+
+.alert {
+  padding: 20px;
+  background-color: #f44336;
+  color: white;
+  position: absolute;
+  bottom: 0px
+}
+
+.closebtn {
+  margin-left: 15px;
+  color: white;
+  font-weight: bold;
+  float: right;
+  font-size: 22px;
+  line-height: 20px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.closebtn:hover {
+  color: black;
 }
 
 
@@ -201,8 +232,9 @@ nav a:hover {
 }
 
 .footer-container footer {
-    color: white;
+    color: #6d1e1e;
     padding: 20px 0;
+    text-align: center;
 }
 
 /* ===============

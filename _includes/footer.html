@@ -1,0 +1,29 @@
+<div class="footer-container">
+  <footer class="wrapper" style="padding: 0"> 
+  	<div class="menu">
+  		<p class="lt999" id="google_translate_element" style="margin: 0">Google Translate available on wider screen</p>
+  	</div>
+<!--     <div class="lt999" id="google_translate_element">
+    </div> -->
+  </footer>
+</div>
+
+<!-- <div class="alert lt999">
+  <span class="closebtn" onclick="this.parentElement.style.display='none';">&times;</span> 
+  <strong>Danger!</strong> Indicates a dangerous or potentially negative action.
+</div> -->
+
+<script type="text/javascript" src="/js/lightbox.js"></script>
+<link rel="stylesheet" href="/css/lightbox.css">
+
+<!-- google translate -->
+<script type="text/javascript">
+
+if (navigator.languages.some(v => ["zh-CN", "zh-TW", "zh", "zh-HK"].indexOf(v) >= 0)) {
+	document.getElementById("google_translate_element").remove();
+} else {
+function googleTranslateElementInit() {
+	new google.translate.TranslateElement({pageLanguage: document.documentElement.lang, includedLanguages:'en,ja,fr,de,es,ar,it,ru,ko', layout: google.translate.TranslateElement.InlineLayout.SIMPLE}, 'google_translate_element');
+	}
+}
+</script>

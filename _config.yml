@@ -1,6 +1,8 @@
-siteurl: 
+siteurl: #
+baseurl: #subdomain
+title: 武汉 · 人间
 markdown: kramdown
 paginate: 20
-motto: 每个1%的背后, 是一条条100%的生命 -- 纪录武汉同胞口罩中的呐喊 | Humanitarian Crisis in Wuhan
+description: 1%的背后, 是一条条100%的生命 -- 纪录武汉同胞口罩中的呐喊 | Humanitarian Crisis in Wuhan
 email: info@wuhancrisis.com
-last_updated: 20200215-12:13:03
+last_updated: 20200216-00:51:33

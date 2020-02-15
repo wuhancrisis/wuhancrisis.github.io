@@ -1,5 +1,8 @@
 ---
 layout: default
+title: 武汉 · 人间
+description: 纪录武汉同胞口罩中的呐喊 | Humanitarian Crisis in Wuhan
+comment_issue_id:
 ---
 
 <div class="content">
@@ -26,7 +29,7 @@ layout: default
                 {% endfor %}
               </ul>
             {% endif %}
-          <h5 style="text-align-last:end;">{{ post.date | date: "%d %b %Y" }}</h5>
+          <h5 style="text-align-last:end;">{{ post.date | date: "%b %d" }}<br>{{post.address_}}, {{post.city_}}</h5>
         </header>
       </article>
     {% endif %}
