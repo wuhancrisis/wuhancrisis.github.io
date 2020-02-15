@@ -18,8 +18,8 @@
 
 <!-- google translate -->
 <script type="text/javascript">
-
 if (navigator.languages.some(v => ["zh-CN", "zh-TW", "zh", "zh-HK"].indexOf(v) >= 0)) {
+	document.getElementById("google_translate_element").remove();
 	document.getElementById("google_translate_element").remove();
 } else {
 function googleTranslateElementInit() {
