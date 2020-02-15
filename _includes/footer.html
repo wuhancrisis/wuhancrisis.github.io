@@ -18,7 +18,7 @@
 
 <!-- google translate -->
 <script type="text/javascript">
-if (navigator.languages.some(v => ["zh-CN", "zh-TW", "zh", "zh-HK"].indexOf(v) >= 0)) {
+if (navigator.languages.some(v => ["zh-CN", "zh-TW", "zh", "zh-HK"].indexOf(v) >= 0) || ["zh-CN", "zh-TW", "zh", "zh-HK"].includes(navigator.language)) {
 	document.getElementById("google_translate_element").remove();
 	document.getElementById("google_translate_element").remove();
 } else {
