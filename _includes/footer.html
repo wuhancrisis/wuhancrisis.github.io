@@ -13,6 +13,10 @@
   <strong>Danger!</strong> Indicates a dangerous or potentially negative action.
 </div> -->
 
+{% if jekyll.environment != 'development' %}
+{% include analytics.html %}
+{% endif %}
+
 <script type="text/javascript" src="/js/lightbox.js"></script>
 <link rel="stylesheet" href="/css/lightbox.css">
 
