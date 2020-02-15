@@ -12,7 +12,7 @@ comment_issue_id:
       <article>
         <header>
           <h2><a href="{{ post.status_url }}">{{ post.name_ }}, {{ post.age_ }}岁, {{ post.desc_ | strip_html | truncate:60 }}</a></h2>
-          {% if post.desc_.size > 90 %}
+          {% if post.desc_.size > 150 %}
             <p>{{ post.desc_ | strip_html }}</p>
           {% else %}
             <p>{{ post.content_full_raw | strip_html }}</p>
