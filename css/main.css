@@ -36,17 +36,18 @@ article h2 {
 
 
 /*message surfix*/
-h5 {
-    font-size: min(3vw, 1em);
-    text-align: right
+article h5 {
+    font-size: min(3vw, 1.5em);
+    text-align: right;
+    margin:0;
 }
 
 /*message box*/
 article {
     box-shadow: 0 0 4px 4px black;
     background-color: #ede7e1;
-    padding: 2em;
-    margin: 2em;
+    padding: min(2vw, 2em) min(2vw, 2em);
+    margin: min(4vw, 2em) min(2vw, 2em);
 }
 
 .header-container {
