@@ -14,8 +14,8 @@
 
           <div class="menu" style="float: left; position: absolute;left: 0;top: 0;">
             <form>
-                <select onchange="window.location.href=this.value" style="background: #39190d; margin: 1em; border-width: 0px;border-color: #6e201f; color: #6e201f; font-weight: bolder; font-size: 1.17em;">
-                  <option selected="selectd">Date</option>
+                <select onchange="window.location.href=this.value">
+                  <option selected="selectd">日期</option>
 
                   {% assign postbydates = site.posts | group_by_exp: "item", "item.date | date: '%b%d'" %}
                   {% assign totalposts = 0 %}

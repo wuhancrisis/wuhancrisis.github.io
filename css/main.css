@@ -1,18 +1,47 @@
 /*! HTML5 Boilerplate v4.3.0 | MIT License | http://h5bp.com/ */
 
 /*DIY*/
+
+:root {
+  --link-textcolor: #915d5d;
+}
+
+
 body {
     top:0px;
 }
 
 .main-container {
     margin-bottom: 3em;
+    line-height: normal;
 }
 
+/*message paragraph*/
 p {
-    font-size: large;
+    line-height: normal;
+    font-size: min(3vw, 1.5em);
 }
 
+/*message title*/
+h2 {
+    font-size: min(4vw, 2em);
+}
+
+article h2 {
+    margin: 0;
+    padding: 0 4vw;
+    text-align: center;
+
+}
+
+
+/*message surfix*/
+h5 {
+    font-size: min(3vw, 1em);
+    text-align: right
+}
+
+/*message box*/
 article {
     box-shadow: 0 0 4px 4px black;
     background-color: #ede7e1;
@@ -32,17 +61,30 @@ article {
     width: 100%;
 }
 
+/*page title*/
 h1 {
-    margin: 0.6em 0;
-    text-decoration: none;
+    font-size: min(6vw, 2em);
 }
 
-h3 {
+.menu {
+    position: absolute;
+    top: 0px;
+    font-weight: bolder; 
+    font-size: min(4.5vw ,1.5em);
+
+}
+.menu h3 {
     margin: 1em;
+    font-size: inherit;
 }
 
-h5 {
-    text-align: right
+.menu select {
+    background: #39190d; 
+    margin: 0.8em; 
+    border-width: 0px;
+    border-color: var(--link-textcolor); 
+    color: var(--link-textcolor); 
+    font-size: inherit;
 }
 
 @media (max-width: 999px) {
@@ -101,8 +143,11 @@ textarea {
 }
 
 a {
-    color: #6d1e1e;
+    color: var(--link-textcolor);
+    line-height: 1;
+    text-decoration: none;
 }
+
 
 html {
     font-size: 1em;
@@ -213,7 +258,7 @@ nav a:visited {
     color: white;
 }
 
-nav a:hover {
+a:hover {
     text-decoration: underline;
 }
 
@@ -235,7 +280,7 @@ nav a:hover {
 }
 
 .footer-container footer {
-    color: #6d1e1e;
+    color: var(--link-textcolor);
     padding: 20px 0;
     text-align: center;
 }
