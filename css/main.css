@@ -66,25 +66,29 @@ h1 {
     font-size: min(6vw, 2em);
 }
 
-.menu {
+.navbar {
     position: absolute;
     top: 0px;
     font-weight: bolder; 
     font-size: min(4.5vw ,1.5em);
-
 }
-.menu h3 {
+
+.navbar h3 {
     margin: 1em;
     font-size: inherit;
 }
 
-.menu select {
+.navbar select {
     background: #39190d; 
     margin: 0.8em; 
     border-width: 0px;
     border-color: var(--link-textcolor); 
     color: var(--link-textcolor); 
     font-size: inherit;
+}
+
+.main {
+    padding: min(2vw, 2em) 0;
 }
 
 @media (max-width: 999px) {
@@ -265,10 +269,6 @@ a:hover {
 /* ==============
     MOBILE: Main
    ============== */
-
-.main {
-    padding: 30px 0;
-}
 
 .main article h1 {
     font-size: 2em;

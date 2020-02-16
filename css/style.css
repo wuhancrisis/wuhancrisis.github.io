@@ -1,0 +1,38 @@
+.paper {
+  position: relative;
+}
+.paper::before, .paper::after {
+  background: linear-gradient(93deg, #000000 38%, #ffffff 55%), linear-gradient(116deg, #000000 42%, #ffffff 53%), linear-gradient(87deg, #000000 69%, #ffffff 82%), linear-gradient(159deg, #000000 41%, #ffffff 43%), linear-gradient(121deg, #000000 45%, #ffffff 48%), linear-gradient(54deg, #000000 64%, #ffffff 67%), linear-gradient(135deg, #000000 18%, #ffffff 37%), linear-gradient(32deg, #000000 31%, #ffffff 46%), linear-gradient(127deg, #000000 40%, #ffffff 47%), linear-gradient(128deg, #000000 35%, #ffffff 40%), linear-gradient(118deg, #000000 73%, #ffffff 87%), linear-gradient(142deg, #000000 19%, #ffffff 20%), linear-gradient(141deg, #000000 18%, #ffffff 21%), linear-gradient(101deg, #000000 98%, #ffffff 115%), linear-gradient(127deg, #000000 94%, #ffffff 103%), linear-gradient(155deg, #000000 81%, #ffffff 97%), linear-gradient(56deg, #000000 98%, #ffffff 115%), linear-gradient(179deg, #000000 44%, #ffffff 52%), linear-gradient(154deg, #000000 74%, #ffffff 84%), linear-gradient(135deg, #000000 14%, #ffffff 21%), linear-gradient(160deg, #000000 72%, #ffffff 90%), linear-gradient(56deg, #000000 46%, #ffffff 54%), linear-gradient(153deg, #000000 41%, #ffffff 56%), linear-gradient(110deg, #000000 21%, #ffffff 29%), linear-gradient(33deg, #000000 51%, #ffffff 52%), linear-gradient(40deg, #000000 14%, #ffffff 30%), linear-gradient(60deg, #000000 25%, #ffffff 38%), linear-gradient(82deg, #000000 65%, #ffffff 71%), linear-gradient(171deg, #000000 9%, #ffffff 17%), linear-gradient(122deg, #000000 19%, #ffffff 23%), linear-gradient(95deg, #000000 60%, #ffffff 77%), linear-gradient(170deg, #000000 1%, #ffffff 8%), linear-gradient(77deg, #000000 74%, #ffffff 83%), linear-gradient(127deg, #000000 61%, #ffffff 67%), linear-gradient(69deg, #000000 18%, #ffffff 36%), linear-gradient(174deg, #000000 90%, #ffffff 99%), linear-gradient(173deg, #000000 79%, #ffffff 89%), linear-gradient(179deg, #000000 27%, #ffffff 47%), linear-gradient(157deg, #000000 35%, #ffffff 41%);
+  background-blend-mode: difference;
+  content: '';
+  display: block;
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+}
+.paper::after {
+  -webkit-filter: invert(1);
+          filter: invert(1);
+  opacity: 0.5;
+  top: 1px;
+}
+
+.color-overlay {
+  background: rgba(247, 201, 110, 0.5);
+  mix-blend-mode: overlay;
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  z-index: 1;
+}
+
+.paper {
+  line-height: 1.5;
+  min-height: 100vh;
+  padding: 2rem;
+  text-align: center;
+}

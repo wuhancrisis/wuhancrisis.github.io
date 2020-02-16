@@ -1,11 +1,11 @@
 $(window).scroll(function() {
     //hide/unhide top menus
     if ($(this).scrollTop() > 1999) { 
-        $('.menu').css({
+        $('.scroll-hide').css({
             'display': 'none'
         });
     } else { 
-        $('.menu').css({
+        $('.scroll-hide').css({
             'display': 'inline-block'
         });
     }
