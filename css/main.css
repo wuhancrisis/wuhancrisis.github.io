@@ -1,8 +1,11 @@
 /*! HTML5 Boilerplate v4.3.0 | MIT License | http://h5bp.com/ */
 
 /*DIY*/
+body {
+    top:0px;
+}
+
 .main-container {
-    margin-top: 3em;
     margin-bottom: 3em;
 }
 
