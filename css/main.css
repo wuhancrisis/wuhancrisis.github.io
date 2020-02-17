@@ -20,17 +20,17 @@ body {
 /*message paragraph*/
 p {
     line-height: normal;
-    font-size: min(3vw, 1.5em);
+    font-size: min(3vw, 1em);
 }
 
 article a {
     line-height: normal;
-    font-size: min(3vw, 1.5em);
+    font-size: min(3vw, 1em);
 }
 
 /*message title*/
 h2 {
-    font-size: min(4vw, 2em);
+    font-size: min(4vw, 1.2em);
 }
 
 article h2 {
@@ -43,7 +43,7 @@ article h2 {
 
 /*message surfix*/
 article h5 {
-    font-size: min(3vw, 1.5em);
+    font-size: min(3vw, 1em);
     text-align: right;
     margin:0;
 }
@@ -70,14 +70,14 @@ article {
 
 /*page title*/
 h1 {
-    font-size: min(6vw, 2em);
+    font-size: min(6vw, 1.5em);
 }
 
 .navbar {
     position: absolute;
     top: 0px;
     font-weight: bolder; 
-    font-size: min(4.5vw ,1.5em);
+    font-size: min(4.5vw ,1em);
 }
 
 .navbar h3 {

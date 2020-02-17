@@ -14,11 +14,11 @@ People desperately broad their SOS message on SNS for the very last change.
 
 Started from Feb 3rd, Weibo (doubtabli the largest sns in China) opened up [Virus Patient SOS](https://huati.weibo.com/6882551) hashtag (yes, that needs platform authentication first), thousands of SOS messages flocked in from individuals trapped in Wuhan and other Hubei cities. 
 
-This website uses crawler to collect and archive those messages from the Weibo platform and developed this website.
+This website uses crawler to collect and archive those messages published in Weibo platform.
 
 ## Site
 
-There is only a index page and this about page. The index page is infinite scrollable, with google translate widget.
+There is an index page and this about page. The index page is infinite scrollable, with google translate widget.
 
 Messages are shown chronically, with small batch randomization, for presenting more of them. Select date on top left.
 
@@ -37,8 +37,8 @@ Based on Weibo manager (if not CEO), only 20% of messages posted in the hashtag 
 [![](/assets/supertopic_comments.jpg)](/assets/supertopic_comments.jpg)
 
 
-## Data Publication
+## Data Usage
 
-As of now, the website keenly hope to call for humanitarian help and respect to each and every individuals in this crisis. They are way way more than a statistical number.
+As of now, the website keenly hopes to call for humanitarian help and respect to each and every individuals in this crisis. They are way way more than a statistical number.
 
 Later, may be the Spring coming, every detail of those messages shall be roar out loadly yet reviewed carefully, for the remember, as for the future.
