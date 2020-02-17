@@ -18,18 +18,21 @@ comment_issue_id:
           {% else %}
             <p>{{ post.content_full_raw | strip_html }}</p>
           {% endif %}
-            {% if post.imageurl %}
-              <ul class="image-gallery">
-                {%  assign urls = post.imageurl | split: "," %}
-                {% for url in urls %}
-                  <li>
-                    <a href="{{ url }}">
-                      <img src="{{ url }}" style="width: 100px">
-                    </a>
-                  </li>
-                {% endfor %}
-              </ul>
-            {% endif %}
+
+          {% if post.imageurl %}
+            <ul class="image-gallery">
+              {%  assign urls = post.imageurl | split: "," %}
+              {% for url_wb in urls %}
+                <li>
+                  {% capture url_local %}{{url_wb | split: "/" | last}}{% endcapture %}
+                  <a href="{{site.url}}/assets/weibo_img/{{url_local}}">
+                    <img src="{{site.url}}/assets/weibo_img/{{url_local}}" alt="">
+                  </a>
+                </li>
+              {% endfor %}
+            </ul>
+          {% endif %}
+
           <h5 style="text-align-last:end;"><br>{{ post.date | date: "%b %d" }}<br>{{post.address_}}, {{post.city_}}</h5>
         </header>
       </article>
