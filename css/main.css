@@ -23,6 +23,11 @@ p {
     font-size: min(3vw, 1.5em);
 }
 
+article a {
+    line-height: normal;
+    font-size: min(3vw, 1.5em);
+}
+
 /*message title*/
 h2 {
     font-size: min(4vw, 2em);
@@ -145,7 +150,7 @@ h1 {
 .image-gallery li a span {display: block; text-overflow: ellipsis; overflow: hidden; white-space: nowrap; padding: 3px 0;}
 .image-gallery li a img {width: 100%; height: 100%; display: block; max-height: 13vw; min-height: 4em;}
 
-ul.image-gallery {padding: 0 10px;}
+ul.image-gallery {padding: 0 10px; display: none;}
 
 /*original*/
 

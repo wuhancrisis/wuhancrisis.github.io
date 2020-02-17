@@ -20,17 +20,18 @@ comment_issue_id:
           {% endif %}
 
           {% if post.imageurl %}
-            <ul class="image-gallery">
-              {%  assign urls = post.imageurl | split: "," %}
-              {% for url_wb in urls %}
-                <li>
-                  {% capture url_local %}{{url_wb | split: "/" | last}}{% endcapture %}
-                  <a href="{{site.url}}/assets/weibo_img/{{url_local}}">
-                    <img src="{{site.url}}/assets/weibo_img/{{url_local}}" alt="">
-                  </a>
-                </li>
-              {% endfor %}
-            </ul>
+          <a onclick="$(this).next().toggle()" href="javascript:void(0)">图片</a>
+          <ul class="image-gallery" >
+            {%  assign urls = post.imageurl | split: "," %}
+            {% for url_wb in urls %}
+              <li>
+                {% capture url_local %}{{url_wb | split: "/" | last}}{% endcapture %}
+                <a href="{{site.url}}/assets/weibo_img/{{url_local}}">
+                  <img src="{{site.url}}/assets/weibo_img/{{url_local}}" alt="">
+                </a>
+              </li>
+            {% endfor %}
+          </ul>
           {% endif %}
 
           <h5 style="text-align-last:end;"><br>{{ post.date | date: "%b %d" }}<br>{{post.address_}}, {{post.city_}}</h5>

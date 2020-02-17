@@ -14,3 +14,13 @@ $(window).scroll(function() {
     $("body").css('background-color', 'rgba(255,0,0,alpha)'.replace('alpha',effect));
     $("body").css('opacity', 1 - effect);
 });
+
+// toggle images
+// $(document).ready(function() {
+//     $('.showimage').each(function() {
+//         $(this).on('click', function() {
+//             $(this).toggleClass('hideimage');
+//             $(this).next().toggle();
+//         });
+//     });
+// });
