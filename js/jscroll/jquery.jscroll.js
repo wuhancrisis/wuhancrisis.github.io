@@ -168,6 +168,7 @@
                         _options.callback.call(this);
                     }
                     _debug('dir', data);
+                    lightbox_listener();
                 });
             });
         }

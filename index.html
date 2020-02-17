@@ -9,6 +9,7 @@ comment_issue_id:
   <div class="randomize">
   {% for post in paginator.posts %}
     {% if post.name_ %}
+      <div><br></div>
       <article>
         <header>
           <h2 style="padding: 0 min(4vw, 8em);"><a href="{{ post.status_url }}">{{ post.name_ }}, {{ post.age_ }}岁,{{ post.desc_ | strip_html | truncate:33 }}</a></h2>
@@ -17,7 +18,7 @@ comment_issue_id:
           {% else %}
             <p>{{ post.content_full_raw | strip_html }}</p>
           {% endif %}
-            {% if post.imageurl_butnotreally %}
+            {% if post.imageurl %}
               <ul class="image-gallery">
                 {%  assign urls = post.imageurl | split: "," %}
                 {% for url in urls %}
@@ -32,6 +33,7 @@ comment_issue_id:
           <h5 style="text-align-last:end;"><br>{{ post.date | date: "%b %d" }}<br>{{post.address_}}, {{post.city_}}</h5>
         </header>
       </article>
+    {% else %}
     {% endif %}
   {% endfor %}
 
@@ -60,6 +62,9 @@ comment_issue_id:
 
 <script src="{{ site.siteurl }}/js/jquery-1.11.1.js"></script>
 <script src="{{ site.siteurl }}/js/jscroll/jquery.jscroll.js"></script>
+
+
+
 {% include randomize.html %}
 
 <script type="text/javascript">

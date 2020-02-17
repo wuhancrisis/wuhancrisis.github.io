@@ -4,6 +4,7 @@
 
 :root {
   --link-textcolor: #915d5d;
+  --header-bg-color: #391a0d;
 }
 
 
@@ -44,7 +45,7 @@ article h5 {
 
 /*message box*/
 article {
-    box-shadow: 0 0 4px 4px black;
+    box-shadow: 0 0 0 min(0.4vw, 0.4em) var(--header-bg-color);
     background-color: #ede7e1;
     padding: min(2vw, 2em) min(2vw, 2em);
     margin: min(4vw, 2em) min(2vw, 2em);
@@ -110,7 +111,7 @@ h1 {
     }
 }
 
-
+/*alert ribbon*/
 
 .alert {
   padding: 20px;
@@ -135,6 +136,14 @@ h1 {
   color: black;
 }
 
+
+/*image gallery*/
+
+.image-gallery {overflow: auto; margin-left: -1%!important;}
+.image-gallery li {float: left; display: block; margin: 0 0 1% 1%; width: 19%;}
+.image-gallery li a {text-align: center; text-decoration: none!important; color: #777;}
+.image-gallery li a span {display: block; text-overflow: ellipsis; overflow: hidden; white-space: nowrap; padding: 3px 0;}
+.image-gallery li a img {width: 100%; display: block; max-height: 10em}
 
 
 /*original*/
@@ -229,7 +238,7 @@ body {
 .header-container,
 .footer-container,
 .main aside {
-    background: #391a0d;
+    background: var(--header-bg-color);
 }
 
 .title {
@@ -357,13 +366,13 @@ a:hover {
     WIDE: CSS3 Effects
    ==================== */
 
-    .header-container,
+/*    .header-container,
     .main aside {
         -webkit-box-shadow: 0 5px 10px #aaa;
            -moz-box-shadow: 0 5px 10px #aaa;
                 box-shadow: 0 5px 10px #aaa;
     }
-}
+}*/
 
 @media only screen and (min-width: 1140px) {
 
