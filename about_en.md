@@ -4,6 +4,20 @@ title: About
 comment_issue_id: 1
 ---
 
+# ! ! Platform Censorship ! !
+
+Based on Weibo manager (if not CEO), only 20% of messages posted in the hashtag went public. Around a hundred delete per day is estimated based on crawling log.
+
+
+[![](/assets/supertopic_comments.jpg)](/assets/supertopic_comments.jpg)
+
+Plus, the platform __regulates__ exposures of user's posts: the published posts are not deleted and exists on the posters' homepage, but it will not be included in other's timelines, including the hashtag channel. This means even people posted their SOS messages with SOS hashtag, their SOS will not appear in the SOS channel, or even their friends' timeline.
+
+With minimal attempt on the approach to search for posters of SOS messages and then crawl their posts, the number of valid SOS posts during the same time period exploded by __nearly 5 times__, from [7 to 32 SOS messages](/weibo_censor.txt).
+
+Embarrassingly, the number of SOS messages collected by this site is __way way less than the actual magnitude__, due to factors like user demographics, local limitations, collecting methods, and censorship. Best effort is given to try for any insignificant help I can make.
+
+
 ## Background
 
 People are facing death in Wuhan. They are screaming for right of life. 
@@ -12,7 +26,7 @@ People desperately broad their SOS message on SNS for the very last change.
 
 ## Source
 
-Started from Feb 3rd, Weibo (doubtabli the largest sns in China) opened up [Virus Patient SOS](https://huati.weibo.com/6882551) hashtag (yes, that needs platform authentication first), thousands of SOS messages flocked in from individuals trapped in Wuhan and other Hubei cities. 
+Started from Feb 3rd, Weibo (doubtably the largest sns in China) opened up [Virus Patient SOS](https://huati.weibo.com/6882551) hashtag (yes, that needs platform authentication first), thousands of SOS messages flocked in from individuals trapped in Wuhan and other Hubei cities. 
 
 This website uses crawler to collect and archive those messages published in Weibo platform.
 
@@ -22,19 +36,13 @@ There is an index page and this about page. The index page is infinite scrollabl
 
 Messages are shown chronically, with small batch randomization, for presenting more of them. Select date on top left.
 
-Click the title to the original post on Weibo, if exists.
+Click the title to the original post on the platform, if exists.
 
 ## Misson
 
 The website wish to inform more people about this on-going crisis, happening on individuals just like you and me. Grief and desperation overwhelmed short messages sent from them.
 
 __They do not deserve that. And all of us, are not innocent.__
-
-## Censorship
-
-Based on Weibo manager (if not CEO), only 20% of messages posted in the hashtag went public. Besides that, about hundres delete per day is estimated based on crawling log.
-
-[![](/assets/supertopic_comments.jpg)](/assets/supertopic_comments.jpg)
 
 
 ## Data Usage

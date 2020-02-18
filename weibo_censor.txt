@@ -1,4 +1,4 @@
-background: crawled sos posts in the channel vs. from the poster
+background: crawled sos posts in the channel vs. from posters
 
 On branch master
 Changes not staged for commit:
