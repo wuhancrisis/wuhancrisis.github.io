@@ -28,7 +28,7 @@ Click the title to the original post on Weibo, if exists.
 
 The website wish to inform more people about this on-going crisis, happening on individuals just like you and me. Grief and desperation overwhelmed short messages sent from them.
 
-__They do not deverse that. And all of us, are not innocent.__
+__They do not deserve that. And all of us, are not innocent.__
 
 ## Censorship
 
