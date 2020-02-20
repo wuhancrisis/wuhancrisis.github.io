@@ -200,7 +200,7 @@ hr {
 }
 
 audio,
-canvas,
+/*canvas,*/
 img,
 video {
     vertical-align: middle;
