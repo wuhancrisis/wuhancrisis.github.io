@@ -2,6 +2,7 @@
 
 var p; // shortcut to reference prototypes
 var lib={};var ss={};var img={};
+var textcolor = "#915d5d";
 lib.ssMetadata = [];
 
 
@@ -30,7 +31,7 @@ function getMCSymbolPrototype(symbol, nominalBounds, frameBounds) {
 
 	// Layer_1
 	this.shape = new cjs.Shape();
-	this.shape.graphics.f("#333333").s().p("AhjAyIhkhjIGPAAIhkBjg");
+	this.shape.graphics.f(textcolor).s().p("AhjAyIhkhjIGPAAIhkBjg");
 	this.shape.setTransform(0,-5);
 
 	this.timeline.addTween(cjs.Tween.get(this.shape).wait(1));
@@ -43,7 +44,7 @@ function getMCSymbolPrototype(symbol, nominalBounds, frameBounds) {
 
 	// Layer_1
 	this.shape = new cjs.Shape();
-	this.shape.graphics.f("#333333").s().p("AjHAyIBkhjIDHAAIBkBjg");
+	this.shape.graphics.f(textcolor).s().p("AjHAyIBkhjIDHAAIBkBjg");
 	this.shape.setTransform(0,5);
 
 	this.timeline.addTween(cjs.Tween.get(this.shape).wait(1));
@@ -56,7 +57,7 @@ function getMCSymbolPrototype(symbol, nominalBounds, frameBounds) {
 
 	// Layer_1
 	this.shape = new cjs.Shape();
-	this.shape.graphics.f("#333333").s().p("AgxBkIAAjHIBjhkIAAGPg");
+	this.shape.graphics.f(textcolor).s().p("AgxBkIAAjHIBjhkIAAGPg");
 	this.shape.setTransform(5,0);
 
 	this.timeline.addTween(cjs.Tween.get(this.shape).wait(1));
@@ -69,7 +70,7 @@ function getMCSymbolPrototype(symbol, nominalBounds, frameBounds) {
 
 	// Layer_1
 	this.shape = new cjs.Shape();
-	this.shape.graphics.f("#333333").s().p("AgxjHIBjBkIAADHIhjBkg");
+	this.shape.graphics.f(textcolor).s().p("AgxjHIBjBkIAADHIhjBkg");
 	this.shape.setTransform(-5,0);
 
 	this.timeline.addTween(cjs.Tween.get(this.shape).wait(1));
@@ -82,7 +83,7 @@ function getMCSymbolPrototype(symbol, nominalBounds, frameBounds) {
 
 	// Layer_1
 	this.shape = new cjs.Shape();
-	this.shape.graphics.f("#333333").s().p("AgxDIIAAmPIBjAAIAAGPg");
+	this.shape.graphics.f(textcolor).s().p("AgxDIIAAmPIBjAAIAAGPg");
 	this.shape.setTransform(5,20);
 
 	this.timeline.addTween(cjs.Tween.get(this.shape).wait(1));
@@ -95,7 +96,7 @@ function getMCSymbolPrototype(symbol, nominalBounds, frameBounds) {
 
 	// Layer_1
 	this.shape = new cjs.Shape();
-	this.shape.graphics.f("#333333").s().p("AjHAyIAAhjIGPAAIAABjg");
+	this.shape.graphics.f(textcolor).s().p("AjHAyIAAhjIGPAAIAABjg");
 	this.shape.setTransform(20,5);
 
 	this.timeline.addTween(cjs.Tween.get(this.shape).wait(1));
@@ -108,7 +109,7 @@ function getMCSymbolPrototype(symbol, nominalBounds, frameBounds) {
 
 	// Layer_1
 	this.shape = new cjs.Shape();
-	this.shape.graphics.f("#333333").s().p("AiVCWIAAhkIDHjHIBkAAIAAApIkCECg");
+	this.shape.graphics.f(textcolor).s().p("AiVCWIAAhkIDHjHIBkAAIAAApIkCECg");
 	this.shape.setTransform(15,15);
 
 	this.timeline.addTween(cjs.Tween.get(this.shape).wait(1));
