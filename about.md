@@ -39,7 +39,7 @@ __他们绝不应遭此劫难 ; 而我们每个人, 都不能说是无辜的.__
 
 下图中一个武汉本地的专门收救对接病患的志愿者团队也遭到了限流, 甚至短暂封号.
 
-[![](/assets/wuxin_volunteer.png)](/assets/wuxin_volunteers.png)
+[![](/assets/wuxin_volunteers.png)](/assets/wuxin_volunteers.png)
 
 笔者另外尝试了一次通过搜索引擎找到求助者, 手动爬取他们的主页, 得到的同样时间内的有效求助数竟增加了近5倍, 从原先的[7条暴涨到32条](/weibo_censor.txt).
 

@@ -41,7 +41,7 @@ Plus, the platform __regulates__ exposures of user's posts: the published posts 
 
 Account shown below is a local volunteer group that coordinates between untreated patients and hospitals. The account is also regulated, and even suspended for a short period.
 
-[![](/assets/wuxin_volunteer.png)](/assets/wuxin_volunteers.png)
+[![](/assets/wuxin_volunteers.png)](/assets/wuxin_volunteers.png)
 
 On the other hand, with minimal attempt on the approach to search for posters of SOS messages and then crawl their posts, the number of valid SOS posts during the same time period exploded by __nearly 5 times__, from [7 to 32 SOS messages](/weibo_censor.txt).
 
