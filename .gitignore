@@ -1,7 +1,0 @@
-/_site
-*.sh
-*.py
-*.csv
-__*
-chromedriver
-.*
