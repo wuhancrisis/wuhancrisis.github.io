@@ -39,7 +39,7 @@ Based on Weibo manager (if not CEO), only 20% of messages posted in the hashtag 
 
 Plus, the platform __regulates__ exposures of user's posts: the published posts are not deleted and exists on the posters' homepage, but it will not be included in other's timelines, including the hashtag channel. This means even people posted their SOS messages with SOS hashtag, their SOS will not appear in the SOS channel, or even their friends' timeline. 
 
-Account shown below is a local volunteer group that coordinates between untreated patients and hospitals. The account is also regulated, and even suspended for a short period.
+Account shown below is a [local volunteer group](https://weibo.com/u/7384348835) that coordinates between untreated patients and hospitals. The account is also regulated, and even suspended for a short period.
 
 [![](/assets/wuxin_volunteers.png)](/assets/wuxin_volunteers.png)
 
