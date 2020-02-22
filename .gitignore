@@ -4,3 +4,4 @@
 *.csv
 __*
 chromedriver
+.*
