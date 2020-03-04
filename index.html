@@ -12,7 +12,7 @@ comment_issue_id:
       <div><br></div>
       <article>
         <header>
-          <a href="{{ post.status_url }}"><h2 style="padding: 0 min(4vw, 8em);">{{ post.name_ }}, {{ post.age_ }}岁,{{ post.desc_ | strip_html | truncate:35 }}</h2></a>
+          <a href="{{ post.status_url }}"><h2 style="padding: 0 min(4vw, 8em);">{{ post.name_ | truncate:1 }}某, {{ post.age_ }}岁,{{ post.desc_ | strip_html | truncate:35 }}</h2></a>
           {% if post.desc_.size > 150 %}
             <p>{{ post.desc_ | strip_html }}</p>
           {% else %}
