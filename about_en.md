@@ -16,6 +16,12 @@ Started from Feb 3rd, Weibo (doubtably the largest sns in China) opened up [Viru
 
 This website uses crawler to collect and archive those messages published in Weibo platform.
 
+According to other weibo user's comment,
+
+> `the hashtag channel was created on Jan. 29, and was taken control by the government on Feb 3. On Feb 4, the number of weibo messages in the channel free-fall from over three thousands to a hundred and  forty two.`
+
+As of now, he channel's earlier message traced back to Feb 3. 
+
 ## Site
 
 There is an index page and this about page. The index page is infinite scrollable, with google translate widget.
@@ -32,7 +38,7 @@ __They do not deserve that. And all of us, are not innocent.__
 
 # ! ! Platform Censorship ! !
 
-Based on Weibo manager (if not CEO), only 20% of messages posted in the hashtag went public. Around a hundred delete per day is estimated based on crawling log.
+Based on Weibo manager (if not CEO), only 20% of messages posted in the hashtag went public. The platform also deletes messages day to day. Highest observed deletion number is about a hundred per day.
 
 
 [![](/assets/supertopic_comments.jpg)](/assets/supertopic_comments.jpg)
