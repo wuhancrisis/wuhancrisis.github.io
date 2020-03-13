@@ -20,7 +20,7 @@ According to other weibo user's comment,
 
 > `the hashtag channel was created on Jan. 29, and was taken control by the government on Feb 3. On Feb 4, the number of weibo messages in the channel free-fall from over three thousands to a hundred and  forty two.`
 
-As of now, he channel's earlier message traced back to Feb 3. 
+As of now, the channel's earlier message traced back to Feb 3. 
 
 ## Site
 
