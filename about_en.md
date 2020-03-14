@@ -4,6 +4,17 @@ title: About
 comment_issue_id: 1
 ---
 
+## Update on Channel Shutdown
+
+On March 14, the platform announced the [Channel Shutdown Notice](https://m.weibo.cn/status/4482409641153011), as the termination of validating and up-reporting channel's SOS messages. 
+
+As the decreasing number of published messages, the website goes into low maintainance mode. To show all messages more comprehensively, the site is revised with following updates:
+
+	1. No more random sorting. All SOS are sorted chronically.
+	2. Show total number of SOS per day in Date Menu at upper left corner.
+	3. Hide patient sensitive information like phone numbers and so.
+
+
 ## Background
 
 People are facing death in Wuhan. They are screaming for right of life. 
@@ -16,9 +27,12 @@ Started from Feb 3rd, Weibo (doubtably the largest sns in China) opened up [Viru
 
 This website uses crawler to collect and archive those messages published in Weibo platform.
 
-According to other weibo user's comment,
+According to other weibo user's comment, _''the hashtag channel was created on Jan. 29, and was taken control by the government on Feb 3. On Feb 4, the number of weibo messages in the channel free-fall from over three thousands to a hundred and  forty two.''_
 
-> `the hashtag channel was created on Jan. 29, and was taken control by the government on Feb 3. On Feb 4, the number of weibo messages in the channel free-fall from over three thousands to a hundred and  forty two.`
+
+[![](/assets/start_date.jpg)](/assets/start_date.jpg)
+
+As shown above, the platform's [Channel Shutdown Notice](https://m.weibo.cn/status/4482409641153011) reveal the same timeline as previous user's statement. 
 
 As of now, the channel's earlier message traced back to Feb 3. 
 

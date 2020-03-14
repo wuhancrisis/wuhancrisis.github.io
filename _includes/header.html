@@ -23,11 +23,11 @@
                     {% assign pagen = totalposts | divided_by: site.paginate | plus: 1  %}
                     {% if pagen < 2 %}
                       <option value="{{site.url}}/">
-                        {{filterdate.name}}
+                        {{filterdate.name}} [{{filterdate.size}}]
                       </option>
                     {% else %}
                       <option value="{{site.url}}/page{{pagen}}">
-                        {{filterdate.name}}
+                        {{filterdate.name}} [{{filterdate.size}}]
                       </option>
                     {% endif %}
 
