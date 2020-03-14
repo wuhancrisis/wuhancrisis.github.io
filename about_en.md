@@ -32,7 +32,7 @@ According to other weibo user's comment, _''the hashtag channel was created on J
 
 [![](/assets/start_date.jpg)](/assets/start_date.jpg)
 
-As shown above, the platform's [Channel Shutdown Notice](https://m.weibo.cn/status/4482409641153011) reveal the same timeline as previous user's statement. 
+As shown above, the platform's [Channel Shutdown Notice](https://m.weibo.cn/status/4482409641153011) reveals the same timeline as previous user's statement. 
 
 As of now, the channel's earlier message traced back to Feb 3. 
 
